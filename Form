@@ -13,4 +13,110 @@ ex:
   
   @3:
    <input> , <select> , <textarea> set class ="form-control " . 
+   
+   
+   inline -form :
+    set form class="form-inline".
     
+    
+    textarea:
+           <form role="form">
+  <div class="form-group">
+    <label for="name">文本框</label>
+    <textarea class="form-control" rows="9"></textarea>
+  </div>
+</form>
+     bigger  row means bigger boxes.
+     
+     
+     Radio & Checkbox: 
+     radio means the single box.
+      ex:
+          <label class="checkbox-inline">
+      <input type="radio" name="optionsRadiosinline" id="optionsRadios3" 
+         value="option1" checked> 选项 1
+   </label>
+   <label class="checkbox-inline">
+      <input type="radio" name="optionsRadiosinline" id="optionsRadios4" 
+         value="option2"> 选项 2
+   </label>.
+   
+        Select：
+        ex： 
+        if U want more select just set multiple.
+        <form role="form">
+   <div class="form-group">
+      <label for="name">选择列表</label>
+      <select class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+      </select>
+
+      <label for="name">可多选的选择列表</label>
+      <select multiple class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+      </select>
+   </div>
+</form>
+    
+    Horizontal label ：
+     <p class="form-control-static">this is ahorizontal  </p>
+     
+     
+     Widget：
+       <input class="form-control" id="disabledInput" type="text" 
+            placeholder="该输入框禁止输入..." disabled>
+            means：
+        use the disabled can make the widget be disabled .
+        
+        use the disabled fieldset can make all contain widget disabled.
+        ex:
+        <fieldset disabled>
+      <div class="form-group">
+         <label for="disabledTextInput"  class="col-sm-2 control-label">
+            禁用输入（Fieldset disabled）
+         </label>
+         <div class="col-sm-10">
+            <input type="text" id="disabledTextInput" class="form-control" 
+               placeholder="禁止输入">
+         </div>
+      </div>
+      <div class="form-group">
+         <label for="disabledSelect"  class="col-sm-2 control-label">
+            禁用选择菜单（Fieldset disabled）
+         </label>
+         <div class="col-sm-10">
+            <select id="disabledSelect" class="form-control">
+               <option>禁止选择</option>
+            </select>
+         </div>
+      </div>
+   </fieldset>
+   
+   
+   
+   Widget size : 
+        means； use the class  .input-lg 
+         ex:
+           <div class="form-group">
+      <input class="form-control" type="text" 
+         placeholder="form-control input-lg">
+   </div> 
+   
+   
+   A help text: 
+     ex: 
+     <form role="form">
+   <span>帮助文本实例</span>
+   <input class="form-control" type="text" placeholder="">
+   <span class="help-block">一个较长的帮助文本块，超过一行，
+   需要扩展到下一行。本实例中的帮助文本总共有两行。</span>
+</form>
+        
