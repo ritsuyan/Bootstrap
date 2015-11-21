@@ -1,0 +1,16 @@
+Bootstrap: 
+form:
+ex:
+ @1: 
+    wrap in a form role set as "form".
+    <form role="form"> 
+  
+  @2:  
+    <div class="form-group">
+           <label for="name">label</label>
+           <input id="name" type="file">
+    </div>
+  
+  @3:
+   <input> , <select> , <textarea> set class ="form-control " . 
+    
