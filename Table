@@ -1,0 +1,25 @@
+Bootstrap: 
+  table: 
+   basic layout: 
+    ex: 
+    <table class="table">
+      <caption> this is a caption </caption>
+      <thead>
+            <tr>
+                 <th></th>
+                 <th></th>  
+            </tr>
+      </thead>
+       <tbody>
+             <tr>
+                  <td></td>
+                  <td></td>
+             </tr>
+       </tbody>
+    </table>
+    table & class: 
+     class :  table-bordered  -------- set the border.
+     
+     class :  focus             --------- set the focus styles.
+     
+     class : condensed            ------------set the padding half styles.
