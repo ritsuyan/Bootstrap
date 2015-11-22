@@ -1,0 +1,48 @@
+Bootstrap : 
+      Nav-horizontal:
+       ex: 
+      <ul class="nav nav-tabs">
+      
+      
+      Nav-Pills: 
+       ex: 
+      <ul class="nav nav-pills">
+       
+      
+      
+      Nav-Pills -stacked
+       ex: 
+       <ul class="nav nav-pills nav-stacked">
+       
+       
+       Use the class .nav-justified can make the banner as the same
+       width as the parent when devise width >=768px;
+       and if in the small screen ,the nav will pile up !!!
+       
+       
+       ex: 
+        <ul class="nav nav-pills nav-justified">
+   <li class="active"><a href="#">Home</a></li>
+   <li><a href="#">SVN</a></li>
+   <li><a href="#">iOS</a></li>
+   <li><a href="#">VB.Net</a></li>
+   <li><a href="#">Java</a></li>
+   <li><a href="#">PHP</a></li>
+   
+   
+   
+    Disabled li: 
+         use class .disabled.
+         
+         
+    Dropdown menu :
+    ex: 
+       <ul class="dropdown-menu">
+         <li><a href="#">Swing</a></li>
+         <li><a href="#">jMeter</a></li>
+         <li><a href="#">EJB</a></li>
+         <li class="divider"></li>
+         <li><a href="#">分离的链接</a></li>
+      </ul>
+      
+      
