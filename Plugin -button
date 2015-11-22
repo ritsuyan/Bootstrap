@@ -1,0 +1,85 @@
+ Bootstrap:
+       btn-group: 
+        ex:
+         
+<div class="btn-group">
+  <button type="button" class="btn btn-default">按钮 1</button>
+  <button type="button" class="btn btn-default">按钮 2</button>
+  <button type="button" class="btn btn-default">按钮 3</button>
+</div>
+
+ 
+  btn-group-xs:
+  means: set the size of btn group.
+  ex:
+      <div class="btn-group btn-group-xs">
+  <button type="button" class="btn btn-default">按钮 7</button>
+  <button type="button" class="btn btn-default">按钮 8</button>
+  <button type="button" class="btn btn-default">按钮 9</button>
+</div>
+
+
+Vertical btn-group: 
+         ex:
+  <div class="btn-group-vertical">
+  <button type="button" class="btn btn-default">按钮 1</button>
+  <button type="button" class="btn btn-default">按钮 2</button>
+
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-default dropdown-toggle" 
+      data-toggle="dropdown">
+      下拉
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">下拉链接 1</a></li>
+      <li><a href="#">下拉链接 2</a></li>
+    </ul>
+  </div>
+</div>
+   
+  Basic drop-down toggle: 
+  means : 
+          first define a div class -- btn-group .
+          div contain two : 
+          first: 
+           button  class--- .dropdown-toggle.
+           a in-line <span> class="caret"</span>
+          Two: 
+            <ul class="dropdown-menu" role="menu"><ul>
+            
+   ex: 
+    <div class="btn-group">
+   <button type="button" class="btn btn-default dropdown-toggle" 
+      data-toggle="dropdown">
+      默认 <span class="caret"></span>
+   </button>
+   <ul class="dropdown-menu" role="menu">
+      <li><a href="#">功能</a></li>
+      <li><a href="#">另一个功能</a></li>
+      <li><a href="#">其他</a></li>
+      <li class="divider"></li>
+      <li><a href="#">分离的链接</a></li>
+   </ul>
+</div>
+     
+     
+     
+     DropUp:
+     ex:
+     <div class="btn-group dropup">
+      <button type="button" class="btn btn-default dropdown-toggle" 
+         data-toggle="dropdown">
+         默认 <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+         <li><a href="#">功能</a></li>
+         <li><a href="#">另一个功能</a></li>
+         <li><a href="#">其他</a></li>
+         <li class="divider"></li>
+         <li><a href="#">分离的链接</a></li>
+      </ul>
+   </div>
+   
+   
+   
