@@ -1,0 +1,25 @@
+Bootstrap: 
+       Glyphicon:
+        ex:
+<button type="button" class="btn btn-default btn-xs">
+  <span class="glyphicon glyphicon-user"></span> User
+</button>
+         
+         
+        ex:
+        means: a primary styles btn 
+        first define the btn styles :
+        <button type="button" class="btn btn-primary btn-lg">
+           <span class="glyphicon glyphicon-user"></span> User
+           </button>
+           
+  Define  your design styles &color:
+   ex:
+   <button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);">
+  <span class="glyphicon glyphicon-user"></span> User
+</button>
+  ex@2: 
+     <button class="btn btn-lg btn-primary" style="color:black;text-shadow:3px 3px 2px orange;">user
+           <span class="glyphicon glyphicon-user"></span>
+            </button>
+            
