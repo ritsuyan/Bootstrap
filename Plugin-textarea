@@ -1,0 +1,48 @@
+Bootstrap: 
+    textarea:
+    ex:
+      <div class="input-group">
+         <span class="input-group-addon">@</span>
+         <input type="text" class="form-control" placeholder="twitterhandle">
+      </div>
+      
+      
+    Add styles: 
+     ex:
+       <div class="input-group input-group-lg">
+         <span class="input-group-addon">@</span>
+         <input type="text" class="form-control" placeholder="Twitterhandle">
+      </div>
+      
+      
+    put the checkbox & radio as addon: 
+    ex: 
+    div class="input-group col-sm-4">
+               <span class="input-group-addon">
+                  <input type="checkbox">
+               </span>
+               <input type="text" class="form-control">
+            </div><!-- /input-group -->
+            
+            
+            
+          A dropdown Button:
+   a button in the input plugin can dropdown the menu: 
+    ex: 
+        <div class="input-group-btn">
+                  <button type="button" class="btn btn-default 
+                     dropdown-toggle" data-toggle="dropdown">
+                     下拉菜单 
+                     <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                     <li><a href="#">功能</a></li>
+                     <li><a href="#">另一个功能</a></li>
+                     <li><a href="#">其他</a></li>
+                     <li class="divider"></li>
+                     <li><a href="#">分离的链接</a></li>
+                  </ul>
+               </div>
+               
+               
+               
