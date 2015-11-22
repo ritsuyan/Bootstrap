@@ -1,0 +1,30 @@
+Bootstrap:
+     assist:
+    ex:
+     <a class="text-muted" href="http://www.w3cschool.cc">链接使用了样式 "text-muted"。</a>  
+     
+  ex:
+          <p class="bg-primary">该段落使用了类 "bg-primary"。</p>
+  
+  ex:
+            <div class="pull-left">元素浮动到左侧</div>
+        <div class="pull-right">元素浮动到右侧</div>
+        
+  ex:
+         <button type="button" class="cloe" aria-hidden="true">
+      &times
+   </button>
+   
+  ex:
+      <p>插入符实例
+   <span class="caret"></span>
+</p>
+      
+ex: 
+      <div class="center-block" style="width:200px;background-color:#ccc;">
+      这是 center-block 实例
+   </div>
+   
+      
+      
+  
