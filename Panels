@@ -1,0 +1,19 @@
+Bootstrap: 
+      Panels: 
+       ex:
+       <div class="panel panel-default">
+   <div class="panel-body">
+      这是一个基本的面板
+   </div>
+</div>
+ 
+     ex:
+         <div class="panel panel-default">
+
+                       <div class="panel-heading">
+                this is a panel heading
+                      </div>
+                       <div class="panel-body">
+               this is a panel body
+                       </div>
+              </div>
