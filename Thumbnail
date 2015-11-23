@@ -1,0 +1,21 @@
+Bootstrap: 
+ thumbnail:
+ define add : 
+  ex:
+      <div class="col-sm-6 col-md-3">
+
+        <div class="thumbnail">
+         <img src="https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/image/h%3D200/sign=d1f692d56a061d95624630384bf60a5d/c8ea15ce36d3d539cef7e42e3e87e950342ab011.jpg" alt="">
+        </div>
+        <div class="caption">
+        <h1>缩略图标签</h1>
+        <p>一些实例样本。一些实例样本</p>
+        <button class="btn btn-primary btn-sm">按钮</button>
+         <button class="btn  btn-sm">按钮</button>
+
+
+        </div>
+
+
+
+   </div>
