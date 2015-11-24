@@ -1,0 +1,26 @@
+Bootstrap： 
+       dropdown： 
+             means： 
+            use the dropdown plugin you can set assembly such as nav , title , pills-menu,button  add the dropdown menu.
+             
+             step: 
+              @1； 
+              by add  the attr : data-toogle="dropdown"  to set .
+              Code: 
+               <div class="dropdown">
+                    <a data-toggle="dropdown" href="#">下拉菜单（Dropdown）触发器</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    ...
+                      </ul>
+               </div>
+               
+               
+               
+               
+               Or : 
+               use javascript: 
+               COde:
+                $(function(){
+      $(".dropdown-toggle").dropdown('toggle');
+      }); 
+         
