@@ -1,0 +1,13 @@
+    Bootstrap: 
+          transition:
+           means: 
+           
+            Modal is the child windows which cover in the father windows.   Aim to show the
+            child window but do not close or left the parent window.
+            
+            Step: 
+            @1 ； 
+             reference the extra <modal.js>.
+             
+             
+             
