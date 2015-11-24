@@ -1,0 +1,48 @@
+Bootstrap: 
+       plugin-tab: 
+         step: 
+         @1: 
+          by data attr: 
+          add data--toogle="tab" or data-toogle="pill" to the anchor link.
+          such as :
+          data-toggle="tab" 或 data-toggle="pill" 到锚文本链接中。
+          
+          add class .nav .nav-pills or .nav-tabs to the ul .
+          
+          Code: 
+          <ul class="nav nav-tabs">
+          <li><a href="#identifier" data-toggle="tab">Home</a></li>
+            ...
+         </ul>
+         
+         
+         
+         by Javascript: 
+           $('#myTab a').click(function (e) {
+             e.preventDefault()
+            $(this).tab('show')
+            })
+            
+            
+            Diffenert ways to active tabanchor:
+            // 通过名称选取标签页
+$('#myTab a[href="#profile"]').tab('show')
+ 
+// 选取第一个标签页
+$('#myTab a:first').tab('show') 
+
+// 选取最后一个标签页
+$('#myTab a:last').tab('show') 
+
+// 选取第三个标签页（从 0 开始索引）
+$('#myTab li:eq(2) a').tab('show') 
+
+           
+           
+      fade :
+           <div class="tab-content">
+  <div class="tab-pane fade in active" id="home">...</div>
+  <div class="tab-pane fade" id="svn">...</div>
+  <div class="tab-pane fade" id="ios">...</div>
+  <div class="tab-pane fade" id="java">...</div>
+</div>
