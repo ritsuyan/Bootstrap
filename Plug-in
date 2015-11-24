@@ -1,0 +1,35 @@
+Bootstrap:  
+      means: 
+       all plug-in rely on the jQuery,must reference the jQuery before the plug-in.
+       
+       Data Attr：
+       by the data-api can use all plug-in without Javascript.
+       you also can remove the data-api by below Code：
+       $(document).off('.data-api');
+       
+       if  you want to close the  plugin you want just Code: 
+        $(document).off('.alert.data-api');  // remove the alert api.
+        
+        
+        
+        init: 
+         // 初始化为默认行为
+        $("#myModal").modal()    
+          // 初始化为不支持键盘               
+       $("#myModal").modal({ keyboard: false })  
+         // 初始化并立即调用 show
+        $("#myModal").modal('show')   
+        
+        
+        
+        Prevent the nameSpace repeat : 
+           ex: 
+           // 返回 $.fn.button 之前所赋的值
+          var bootstrapButton = $.fn.button.noConflict() 
+           // 为 $().bootstrapBtn 赋予 Bootstrap 功能					       
+          $.fn.bootstrapBtn = bootstrapButton       
+       
+       
+      Plug-in:
+       ex:
+       
