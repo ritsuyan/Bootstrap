@@ -1,0 +1,42 @@
+Bootstrap: 
+    Scrollspy: 
+    means: 
+    step:
+    @1: 
+    add the listen elem regular is "body",add attr: data-spy="scroll"  .
+    Code: 
+        <body data-spy="scroll" data-target=".navbar-example">
+  ...
+            <div class="navbar-example">
+             <ul class="nav nav-tabs">
+      ...
+              </ul>
+            </div>
+  ...
+           </body>
+     
+      regular set the content div  the attr:
+      body data-spy="scroll" data-target=".navbar-example
+      
+      the data-target is the nav assemable's id .
+      also corresponding the div's id and nav's  id .
+      such as : 
+             <h4 id="ios">iOS</h4>
+        <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple 
+      TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。
+   </p>
+   <h4 id="svn">SVN</h4>
+   <p>Apache Subversion，通常缩写为 SVN，是一款开源的版本控制系统软件。Subversion 由 CollabNet 公司在 2000 年创建。但是现在它已经发展为 Apache Software Foundation 的一个项目，因此拥有丰富的开发人员和用户社区。
+    </p>
+    
+    
+     above content in the div 
+     you can find the href in the nav ： 
+      <li><a href="#ios">iOS</a></li>
+         <li><a href="#svn">SVN</a></li>
+         
+         the last set the div styles:
+         style="height:200px;overflow:auto; position: relative;
+         
+         
+         
