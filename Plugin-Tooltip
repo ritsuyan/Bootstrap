@@ -1,0 +1,36 @@
+Bootstrap: 
+    tooltip:
+         ex:
+         by data-toogle ="tooltip"
+         title="difine"
+         <a href="#" data-toggle="tooltip" data-placement="right" 
+   title="右侧的 Tooltip">
+   右侧的  Tooltip
+</a> 
+ 
+ 
+         More：
+         Options: .tooltip(options) 向元素集合附加提示工具句柄。 $().tooltip(options) 
+Toggle: .tooltip('toggle') 切换显示/隐藏元素的提示工具。 $('#element').tooltip('toggle') 
+Show: .tooltip('show') 显示元素的提示工具。 $('#element').tooltip('show') 
+Hide: .tooltip('hide') 隐藏元素的提示工具。 $('#element').tooltip('hide') 
+Destroy: .tooltip('destroy') 隐藏并销毁元素的提示工具。 $('#element').tooltip('destroy') 
+           、
+           
+           
+           
+           
+           
+     fun： 
+     show.bs.tooltip 当调用 show 实例方法时立即触发该事件。 $('#myTooltip').on('show.bs.tooltip', function () {
+  // 执行一些动作...
+}) 
+shown.bs.tooltip 当提示工具对用户可见时触发该事件（将等待 CSS 过渡效果完成）。 $('#myTooltip').on('shown.bs.tooltip', function () {
+  // 执行一些动作...
+}) 
+hide.bs.tooltip 当调用 hide 实例方法时立即触发该事件。 $('#myTooltip').on('hide.bs.tooltip', function () {
+  // 执行一些动作...
+}) 
+hidden.bs.tooltip 当提示工具对用户隐藏时触发该事件（将等待 CSS 过渡效果完成）。 $('#myTooltip').on('hidden.bs.tooltip', function () {
+  // 执行一些动作...
+}) 
