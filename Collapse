@@ -1,0 +1,81 @@
+Bootstrap； 
+      Collapse: 
+            ex:  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseOne">
+          点击我进行展开，再次点击我进行折叠。第 1 部分
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+        vice lomo.
+      </div>
+    </div>
+  </div> 
+   
+   
+           Create the assemable without accordion : 
+            ex:
+            <button class="btn btn-primary" href="#demo" data-toggle="collapse">
+	
+	 简单的可折叠组件
+	</button>
+
+<div id="demo" >
+  Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+  cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+  vice lomo.
+</div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   Options: .collapse(options)	激活内容为可折叠元素。接受一个可选的 options 对象。	
+$('#identifier').collapse({
+  toggle: false
+})
+Toggle: .collapse('toggle')	切换显示/隐藏可折叠元素。	
+$('#identifier').collapse('toggle')
+Show: .collapse('show')	显示可折叠元素。	
+$('#identifier').collapse('show')
+Hide: .collapse('hide')	隐藏可折叠元素。	
+$('#identifier').collapse('hide')
+    ex:
+    
+    <script type="text/javascript">
+   $(function () { $('#collapseFour').collapse({
+      toggle: false
+   })});
+   $(function () { $('#collapseTwo').collapse('show')});
+   $(function () { $('#collapseThree').collapse('toggle')});
+   $(function () { $('#collapseOne').collapse('hide')});
+</script>  
+
+
+
+
+
+
+
+
+         Fun: 
+         
+         <script type="text/javascript">
+   $(function () { 
+      $('#collapseexample').on('show.bs.collapse', function () {
+         alert('嘿，当您展开时会提示本警告');})
+   });
+</script>  
+         
+         
